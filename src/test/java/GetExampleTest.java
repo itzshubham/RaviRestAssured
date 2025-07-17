@@ -17,6 +17,10 @@ public class GetExampleTest {
 		System.out.println("anser="+s);
 		Assert.assertTrue(s.contains("contentcaddy.io"));
 		
+		String total=path.get("total").toString();
+		System.out.println("total="+total);
+		Assert.assertTrue(total.equals("12"));
+		
 	}
 
 }
